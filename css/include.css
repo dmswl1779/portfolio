@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    height: 80px;
+    line-height: 80px;
+    z-index: 200;
+    position: relative;
+    background: #023251;
+    border-bottom: 1px solid #1f5974;
+}
+#header h1{
+    padding-left: 5%;
+}
+#header a{color:#eee;}
+
+.gnb{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 5%;
+}
+.gnb li{
+    float: left;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.gnb li a {
+  padding: 0 .3em;
+  background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(252,76,114,1) 50%);
+  background-size: auto 200%;
+  transition: .3s;
+}
+.gnb li a:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+
+/*메인*/
+.main{
+	height: 1000px;
+	background: #023251;
+	position: relative;
+}
+
+.mainLeft{
+	width: 100px;
+}
+.mainLeft li{
+	height: 250px;
+}
+.left1{
+	background: #357892;
+}
+.left2{
+	background: #205974;
+}
+.left3{
+	background: #0A3F5F;
+}
+.left4{
+	background: #033152;
+}
+
+.mainCenter img{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.mainBgImageL{}
+.mainBgImageL .main01{
+	position: absolute;
+	top: 0;
+	top: 5%;
+	left: 160px;
+}
+.mainBgImageL .main01_1{
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+.mainBgImageL .main02{
+	position: absolute;
+	bottom: 40%;
+	left: 300px;
+}
+.mainBgImageL .main03{
+	position: absolute;
+	bottom: 0;
+	bottom: -80px;
+	left: 120px;
+}
+.mainBgImageL .main04{
+	position: absolute;
+	top: 0;
+	left: 35%;
+	top: 10px;
+}
+
+.mainBgImageR .main6{
+	position: absolute;
+	bottom: 0;
+	bottom: -30px;
+	right: 0;
+	right: 25%;
+}
+.mainBgImageR .main8{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	right: 50px;
+	bottom: 80px;
+}
+.mainBgImageR .main8_1{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	bottom: 80px;
+}
+.mainBgImageR .main7{
+	position: absolute;
+	right: 0;
+	top: 0;
+	top: 30%;
+	right: 20%;
+}
+.mainBgImageR .main9{
+	position: absolute;
+	right: 0;
+	top: 0;
+	right: 20px;
+	top: 20%;
+}
+.mainBgImageR .main9_1{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.mainBgImageR .main9_2{
+	position: absolute;
+	right: 0;
+	top: 0;
+	right: 367px;
+}
+.mainText{
+	position: absolute;
+	bottom:50%;
+	width: 100%;
+	color:#eee;
+	text-align: center;
+}
+.mainTit{
+	font-size: 120px;
+	font-family: 'Geometos Rounded';
+	padding-left: 30px;
+}
+.number{
+	position: absolute;
+	right: 34%;
+	top: 75%;
+}
+.name{
+	position: absolute;
+	right: 35%;
+	bottom:-80%;
+}
+
+.mainTextBottom{
+	position: absolute;
+	color:#eee;
+	font-size: 80px;
+	bottom: 0;
+	left: 0;
+	left: 120px;
+}
+.mainTextBottom p{}
+
+.mainBottom{}
+.mainBottom img{
+	width: 100%;
+}
+.main01>.floater{
+	animation-delay: 2s;
+}
+/*panel*/
+
+
+/*footer*/
+#footer{
+	position: relative;
+}
+#footer>img{
+	width: 100%;
+	display: block;
+}
+#footer>p{
+	position: absolute;
+	bottom: 0;
+	bottom:30%;
+	right: 50%;
+	margin-right: -88px;
+	color:#eee;
+}
+.fImages{}
+.fImages img{
+}
+.fImage1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	left: -50px;
+	top: 0;
+	top: -150px;
+}
+.fImage2{
+	position: absolute;
+	bottom: 0;
+	top: 30%;
+	left: 0;
+	left: 450px;
+}
+.fImage3{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	right: 24%;
+}
+.fImage4{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	right: 8%;
+	top: 0;
+	top: 120px;
+}

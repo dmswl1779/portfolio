@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+/*mainCon01*/
+.mainCon01{
+	padding-top: 350px;
+	padding-bottom: 350px;
+}
+.con01Tit{
+	position: relative;
+	padding-bottom: 120px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family:'Geometos Rounded';
+}
+.con1Tit{
+	position: absolute;
+	left: 0;
+	left: 90px;
+	top: 0;
+	top:-35px;
+}
+.bg0{
+    position: absolute;
+	right: 0;
+    right:-80px;
+	top: 0;
+}
+
+.con01{}
+.con01 div{
+	float: left;
+	text-align: center;
+}
+.con01Left{
+	width: 50%;
+}
+.con01Left img{}
+.con01Right{
+	width: 50%;
+}
+.con01Right p{}
+
+/*mainCon02*/
+.mainCon02{
+	padding-bottom: 350px;
+}
+.con02Tit{
+	position: relative;
+	padding-bottom: 120px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family:'Geometos Rounded';
+}
+.con2Tit{
+	position: absolute;
+	left: 0;
+	left: 125px;
+	top: 0;
+	top:-35px;
+}
+.bg2{
+	position: absolute;
+	left: 0;
+	left: -250px;
+	top: 0;
+	top:-400px;
+}
+.con02{
+	width: 500px;
+	float: left;
+}
+.web{
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	border-top-right-radius: 8%;
+	border-top-left-radius: 8%;
+}
+.web img{
+    display: block;
+    width: 100%;
+}
+.webInfo{
+	box-sizing: border-box;
+	padding: 30px;
+}
+.webInfo h4{
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.webInfo p{
+	padding-bottom: 15px;
+}
+.webInfo span{}
+.moreBtn{
+	font-size: 13px;
+}
+.moreBtn img{
+	display: inline-block;
+	padding-left: 10px;
+	width: 20px;
+}
+.con02_1,.con02_3{
+	padding-right: 200px;
+}
+.con02_1,.con02_2{
+	padding-bottom: 150px;
+}
+
+/*mainCon03_MOBILE*/
+.mainCon03{
+	padding-bottom: 350px;
+}
+.con03Tit{
+	position: relative;
+	padding-bottom: 120px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family:'Geometos Rounded';
+}
+.con3Tit{
+	position: absolute;
+	left: 0;
+	left: 80px;
+	top: 0;
+	top:-35px;
+}
+.bg1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	top: -250px;
+}
+.con03{
+	width: 500px;
+	float: left;
+}
+.mobile{
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	border-top-right-radius: 8%;
+	border-top-left-radius: 8%;
+}
+.mobile img{
+    display: block;
+    width: 100%;
+}
+.mobileInfo{
+	box-sizing: border-box;
+	padding: 30px;
+}
+.mobileInfo h4{
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.mobileInfo p{
+	padding-bottom: 15px;
+}
+.mobileInfo span{}
+.moreBtn{
+	font-size: 13px;
+}
+.moreBtn img{
+	display: inline-block;
+	padding-left: 10px;
+	width: 20px;
+}
+.con03_1{
+	padding-right: 200px;
+}
+
+.mainBgImageL .floater,.wiggle{
+	animation-delay:0.5s;
+}
+.mainBgImageR .pulse,.wiggle{
+	animation-delay: 0.5s;
+}
+.fImages .fImage1,floater{
+	animation-delay: 0.5s;
+}
